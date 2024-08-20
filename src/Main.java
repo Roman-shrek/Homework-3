@@ -5,8 +5,8 @@ public class Main {
         System.out.println("Значение переменной с типом byte равно " + box);
         short apple = 130;
         System.out.println("Значение переменной с типом short равно " + apple);
-        int banan = 1000;
-        System.out.println("Значение переменной с типом int равно " + banan);
+        int banana = 1000;
+        System.out.println("Значение переменной с типом int равно " + banana);
         long day = 350L;
         System.out.println("Значение переменной с типом long равно " + day);
         float pepper = 3.17f;
@@ -15,19 +15,12 @@ public class Main {
         System.out.println("Значение переменной с типом double равно " + cucumber);
         System.out.println("Задача 2");
         float a = 27.12f;
-        System.out.println(a);
         long b = 987678965549L;
-        System.out.println(b);
         float c = 2.786f;
-        System.out.println(c);
         short d = 569;
-        System.out.println(d);
         short i = -159;
-        System.out.println(i);
         int f = 27897;
-        System.out.println(f);
         byte j = 67;
-        System.out.println(j);
         System.out.println("Задача 3");
         byte class1 = 23;
         byte class2 = 27;
@@ -83,24 +76,17 @@ public class Main {
         float result = (day250Grams + day500Grams) / 2;
         System.out.println("в среднем потребуется " + result + " день");
         System.out.println("Задание 8");
-        int startingSalary1 = 67760;
-        int startingSalary2 = 83690;
-        int startingSalary3 = 76230;
-        int annualIncomeBeforeIncrease1 = startingSalary1 * 12;
-        int annualIncomeBeforeIncrease2 = startingSalary2 * 12;
-        int annualIncomeBeforeIncrease3 = startingSalary3 * 12;
-        float increasedSalary1 = startingSalary1 * 1.1f;
-        float increasedSalary2 = startingSalary2 * 1.1f;
-        float increasedSalary3 = startingSalary3 * 1.1f;
-        float annualIncome1 = increasedSalary1 * 12;
-        float annualIncome2 = increasedSalary2 * 12;
-        float annualIncome3 = increasedSalary3 * 12;
-        float difference1 = annualIncome1 - annualIncomeBeforeIncrease1;
-        float difference2 = annualIncome2 - annualIncomeBeforeIncrease2;
-        float difference3 = annualIncome3 - annualIncomeBeforeIncrease3;
-        System.out.println("Маша теперь получает " + increasedSalary1 + " рубля. Годовой доход вырос на " + difference1 + " рублей");
-        System.out.println("Денис теперь получает " + increasedSalary2 + " рубля. Годовой доход вырос на " + difference2 + " рублей");
-        System.out.println("Кристина теперь получает " + increasedSalary3 + " рубля. Годовой доход вырос на " + difference3 + " рублей");
+        int salaryMasha = 67760;
+        int salaryDen = 83690;
+        int salaryKris = 76230;
+        float resultSalaryMasha = salaryMasha * 1.1f;
+        float resultSalaryDen = salaryDen * 1.1f;
+        float resultSalaryKris = salaryKris * 1.1f;
+        float differenceMasha = (resultSalaryMasha * 12) - (salaryMasha * 12);
+        float differenceDen = (resultSalaryDen * 12) - (salaryDen * 12);
+        float differenceKris = (resultSalaryKris * 12) - (salaryKris * 12);
+        System.out.println("Маша теперь получает " + resultSalaryMasha + " рубля. Годовой доход вырос на " + differenceMasha + " рублей");
+        System.out.println("Денис теперь получает " + resultSalaryDen + " рубля. Годовой доход вырос на " + differenceDen + " рублей");
+        System.out.println("Кристина теперь получает " + resultSalaryKris + " рубля. Годовой доход вырос на " + differenceKris + " рублей");
     }
-
 }
